@@ -8,9 +8,8 @@ app = Flask(__name__)
 file_name = "speech.ogg"
 languages = ["nl", "en-GB", "en-US", "fr", "de", "it", "ru", "cs", "pl", "es", "tr", "pt", "zh", "ar", "sv", "ja"]
 
-token = "token here" #Bot token (Example: 93181085:AAELcePZ1qabYrDiu0t1PVPuw1HI0zXzXmq)
-cert = "example.crt" #SSL certificate (Can not be self-signed)
-key = "example.key"  #SSL key (Can not be self-signed)
+token = "228064680:AAGTn1KIfrySPoNRoiD86aHaM9mYnQ4Je-E" #Bot token (Example: 93181085:AAELcePZ1qabYrDiu0t1PVPuw1HI0zXzXmq)
+
 
 api = "https://api.telegram.org/bot" + token
 
